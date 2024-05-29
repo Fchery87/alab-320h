@@ -1,9 +1,9 @@
-/* App.css */
+
 .app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -28,8 +28,10 @@
   padding: 10px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 10px;
   border: 2px solid green;
   box-sizing: border-box;
+  padding-top: 10px;
 }
 
 .search-bar input {
@@ -38,6 +40,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+
 }
 
 .employee-list {
